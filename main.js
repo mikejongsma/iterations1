@@ -51,9 +51,9 @@ function arrayMathRand25(){
     do{
         var count = 10;
         for(i=0; i<count; i++){
-            var r = 0;//Math.floor(Math.random() * 156) + 40;
+            var r = Math.floor(Math.random() * 156) + 40;
             var g = Math.floor(Math.random() * 156) + 100;
-            var b = 156;//Math.floor(Math.random() * 156) + 40;
+            var b = Math.floor(Math.random() * 156) + 40;
             var rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
             var str = document.createElement('br');
             var c = document.createElement('div');
